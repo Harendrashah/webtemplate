@@ -1,7 +1,9 @@
 <script setup>
-import NavBar from './NavBar.vue'; // Correctly import the NavBar component
+// import FooterPage from "./layouts/FooterPage.vue";
+import NavBar from "./NavBar.vue";
 </script>
 
+// import FooterPage from
 <template>
   <NavBar /> <!-- Use NavBar component here -->
 </template>
