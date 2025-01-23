@@ -16,12 +16,12 @@
               z-index: 2;
             "
           >
-            <img
+            <!-- <img
               class="!rounded-[.4rem]"
               src="https://sandbox-tailwind-template.netlify.app/assets/img/photos/tei1.jpg"
               srcset="../../assets/img/photos/tei1@2x.jpg 2x"
               alt="image"
-            />
+            /> -->
           </figure>
           <div
             class="xl:w-9/12 lg:w-9/12 w-full flex-[0_0_auto] px-[15px] max-w-full !text-center"

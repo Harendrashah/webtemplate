@@ -1,19 +1,10 @@
 export default defineNuxtConfig({
-  modules: ['@nuxt/ui', 'nuxt-swiper'],
-
-  devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
-  compatibilityDate: '2024-12-02',
+  compatibilityDate: '2024-04-03',
+  devtools: { enabled: false },
+  modules: ['@nuxtjs/tailwindcss', '@formkit/nuxt'],
 
   app: {
+    baseURL: '/loginpage/',
     head: {
       link: [
         {

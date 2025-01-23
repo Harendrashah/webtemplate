@@ -114,7 +114,6 @@
 </template>
 
 <script setup>
-import NavBar from './NavBar.vue';
 
 import { ref, onMounted, onBeforeUnmount, computed } from 'vue';  // Add missing imports
 import { useRoute } from 'vue-router';
